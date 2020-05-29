@@ -20,3 +20,14 @@ The code was created by me, Edwin van den Oetelaar, oktober 2016, for a contract
 If you need special project code developed, give me a message ( edwin @ oetelaar dot com )
 
 Also important, this code is MIT license now, no warranties whatsoever, it may set your house on fire or get your girlfriend pregnant, use it at your own risk or not use it at all.
+
+Some technical details :
+
+Inputs must be pulled to HIGH to activate. (buttons on pins 4 and 5)
+Output flash signal light is on pin 6 (high is active)
+Output buzzer is on pin 7 (high is active)
+Output to activate valve 1 is on pin 14 (active high)
+Output to activate valve 2 is on pin 15 (active high)
+
+This code was written at night from a friday..saturday, it had to be installed on the next monday.
+I had to save someone elses lack of planning, I could not let the project fail ... so there we go again.
