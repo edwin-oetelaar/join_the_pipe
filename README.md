@@ -2,7 +2,8 @@
 Join The Pipe . org Amsterdam (code for custom controller Concertgebouw Amsterdam)
 
 This is the code written for a custom project, used in "The Concertgebouw"  in Amsterdam.
-It runs on a Arduino Clone with rugged IO : A Controllino
+It runs on a Arduino Clone with rugged IO : A Controllino.
+Settings of the trained timers are stored inside the eeprom of the controller so it can be installed by someone else, trained and will work forever after that...  
 
 https://www.controllino.biz/product/controllino-mini/
 
