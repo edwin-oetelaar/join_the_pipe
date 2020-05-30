@@ -1,4 +1,6 @@
-# join_the_pipe (ATMEGA CONTROLLER, sold as rugged Arduino)
+# join_the_pipe water dispenser
+
+__the system is controlled by an Arduino PLC, Controllino Mini__
 
 ## Join The Pipe . org Amsterdam (code for custom water dispensing controller Concertgebouw Amsterdam)
 
@@ -14,6 +16,7 @@ Also important, __this code is MIT license now, no warranties whatsoever__, it m
 
 Settings of the trained timers are stored inside the eeprom of the controller so it can be installed by someone in the field, trained and will work forever after setup.
 
+
 [Link to Controllino-Mini Manufacturer](https://www.controllino.biz/product/controllino-mini/)
 
 The system has 2 valves and 2 buttons to dispense water (one flat, one with bubbles)
@@ -26,6 +29,11 @@ Pressing the 2 buttons for 2 .. 10 seconds puts the sytem in Auto-dispensing mod
 Pressing the 2 buttons for 10 .. 30 seconds puts it into teach-in mode (training the times for dispensing)
 
 ## Some technical details
+
+### The concept sketch
+
+![Image of Concept Electrical schematic](controllino_concept_JTP.jpg)
+
 
 ### Inputs must be pulled to HIGH to activate
 
