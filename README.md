@@ -15,7 +15,7 @@ If you need special project code developed, give me a message ( edwin @ oetelaar
 Also important, __this code is MIT license now, no warranties whatsoever__, it may set your house on fire or get your girlfriend pregnant, use it at your own risk or not use it at all.
 
 Settings of the trained timers are stored inside the eeprom of the controller so it can be installed by someone in the field, trained and will work forever after setup.
-
+![Image of Controllino Mini](CONTROLLINO_MINI.jpg)
 
 [Link to Controllino-Mini Manufacturer](https://www.controllino.biz/product/controllino-mini/)
 
@@ -64,6 +64,7 @@ I use this pattern with great success in many applications (including digital ha
 Once you know these things everything looks like a __simple state transition table__ :-)
 
 To the young "makers" I would urge : study FSM if you want to be a serious programmer, these are basic skills. Do not just copy and paste Arduino example code without understanding the underlying theory. I see so much bad code online that it hurts my eyeballs.
+I would not recommend using an Arduino-controller for a project if you have little experience with building reliable systems using bare metal in general. Use something that is designed for the job, like a mini-PLC controller (with complete software stack) I used Clion as my Editor/IDE for the project, certainly not the IDE from Arduino..
 
 ## Further reading to learn skills
 
