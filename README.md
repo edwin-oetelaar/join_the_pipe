@@ -47,6 +47,7 @@ I like these designs because all state in the system is EXPLICIT in a single pla
 * flow control is obvious
 * no unexpected changes of the outputs
 * no expired timers at random times or unexpected behavior
+* The whole system is DETERMINISTIC a DFA (Deterministic Finite Automata) this is what you want in a control system :-)
 
 ## General advice
 
